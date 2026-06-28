@@ -1,11 +1,11 @@
+[build]
+  publish = "."
+
 [[redirects]]
   from = "/*.html"
   to = "/:splat"
   status = 301
   force = false
-
-[build]
-  publish = "."
 
 [[headers]]
   for = "/*"
