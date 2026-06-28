@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
+  force = false
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"

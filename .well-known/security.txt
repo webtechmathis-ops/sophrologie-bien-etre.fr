@@ -1,0 +1,3 @@
+Contact: mailto:Sophro973@gmail.com
+Preferred-Languages: fr
+Canonical: https://sophrologie-bien-etre.fr/.well-known/security.txt
